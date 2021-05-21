@@ -1,0 +1,192 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    background-color: #FFF;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+/*----start-header----*/
+.header{
+	background:url(../images/header-bg.jpg) no-repeat 50% 0px;
+	background-size:70% 100%;
+	min-height:600px;
+
+}
+.kontakts {
+  position: relative;
+  margin:0 auto;
+  width: 50%;
+}
+
+.image {
+  display: block;
+margin:0 auto;
+  width: 95%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  margin:0 auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color:black;
+}
+
+.kontakt-text{
+	color: white;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 90%;
+    font-size: 1vw;
+    font-weight: 900;
+}
+
+.rightimg  {
+    float: right; 
+    margin: 0 0 0 0; 
+    width: 15%;
+    height:15%;
+   }
+ .leftimg {
+    float:left; 
+    margin: 0 0 0 0; 
+    width: 15%;
+    height:15%;
+   }
+
+
+.top-nav{
+
+	background-color: black;
+	opacity: 0.9;
+}
+.top-nav ul li a{
+	color: #646f71;
+	padding: 0.1em 1em;
+	font-size: 1.2em;
+	font-weight: 500;
+	text-shadow: black 0.5px 0.5px 0, black -0.5px -0.5px 0, 
+                 black -0.5px 0.5px 0, black 0.5px -0.5px 0;
+
+
+
+}
+
+.top-nav ul li a:hover{
+	color:#3cfa17;
+}
+
+nav ul {
+	padding: 0;
+	float: right;
+	margin: 2.2em 0;
+}
+nav li {
+	display: inline;
+	position:relative;
+}
+nav a {
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+}
+nav a:hover{
+	text-decoration:none;
+	color:#00A2C1;
+}
+
+.slide-text{
+	margin-top: 10em;
+}
+.slide-text h1{
+	color:#646f71;
+	font-family: 'Droid Serif', serif;
+	font-size: 3.2em;
+	font-weight:700;
+	text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+}
+
+.features{
+	padding:5em 0;
+}
+.head h3{
+	color:#394346;
+	font-size:2em;
+	font-family: 'Droid Serif', serif;
+	font-weight:700;
+	margin: 0 0 0.5em 0;
+}
+.head p{
+	color: #8E999C;
+	margin: 0 auto;
+	width: 64%;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.head-img
+{
+	width: 35px;
+	height: 35px;
+}
+.features-grid p{
+	color: #8E999C;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+.features-grids{
+	padding: 4em 0 0em;
+}
+
+/*-----start-footer----*/
+.footer{
+	background:#21282A;
+}
+.footer-left{
+	text-align:center;
+	margin:1.8em 0;
+}
+.footer-left a img{
+	display:inline-block;
+}
+.footer-left p{
+	color: #FFF;
+	margin:0.8em 0 0;
+}
+.footer-left p a{
+	color:#00AEEF;
+}
+.footer-left p a:hover{
+	text-decoration:none;
+	color:#FD3B01;
+}
+
+@media (max-width:1366px){
+.blog-post-time-line-connector span {
+	left: 9%;
+}
+.port-grid-text {
+	min-height: 217px;
+}
+}
+@media (max-width:1024px){
+.top-nav ul li a {
+	font-size: 1em;
+
+}
+}
